@@ -2,4 +2,4 @@ This is OnePiech
 
 Ki moooooooooooo
 
-jj
+jj = jujutsu kaisen
