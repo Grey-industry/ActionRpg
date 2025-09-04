@@ -17,3 +17,7 @@ tete
 i tsu ke no you me Wooo
 
 kaki us tsu me
+
+sagashimono sageshi D yu ku no sa!
+
+ONE PIECE!
