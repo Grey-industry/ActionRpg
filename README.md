@@ -1,4 +1,7 @@
 This is OnePiech
+Can we get much higher? (So high)
+Oh, oh, oh
+Oh, oh, oh-oh, oh
 Ki moooooooooooo
 jj lulululu
 Nani!
