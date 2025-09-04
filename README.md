@@ -12,4 +12,6 @@ Nani!
 
 tete
 
-i tsu ke no you me Wooooo!
+i tsu ke no you me Wooo
+
+kaki us tsu me
