@@ -32,4 +32,9 @@ public class Gameplay : MonoBehaviour
     {
         HpBar.fillAmount = (float)player.hp / 100;
     }
+
+    public void TakeDamage()
+    {
+        if (player.hp > 0) player.hp -= 10;
+    }
 }
