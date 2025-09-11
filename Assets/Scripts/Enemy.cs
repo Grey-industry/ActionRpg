@@ -1,36 +1,63 @@
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.AI;
 
-public class Enemy : MonoBehaviour
+public class SlimeChasePlayer : MonoBehaviour
 {
+    NavMeshAgent agent;
+    public GameObject player;
 
-    public Transform player;   // ������
-    public float speed = 3f;   // ���������ѵ��
+    public float stopDistance = 1f;
+    public float detectionRange = 10f;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    Animator anim;
+    bool isPlayerInRange = false;
+    bool hasReachePlayer = false;
+
     void Start()
     {
-        //Hooki
+        agent = GetComponent<NavMeshAgent>();
+        anim = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (player != null)
+        float distance = Vector3.Distance(transform.position, player.transform.position);
+        isPlayerInRange = distance <= detectionRange;
+        if (isPlayerInRange)
         {
-            // �Թ����Ҽ�����
-            transform.position = Vector3.MoveTowards(
-                transform.position,
-                player.position,
-                speed * Time.deltaTime
-            );
-
-            // �ѹ˹����Ҽ�����
-            Vector3 direction = (player.position - transform.position).normalized;
-            transform.forward = direction;
+            if (distance <= stopDistance)
+            {
+                StopMoving();
+                hasReachePlayer = true;
+            }
+            else
+            {
+                MoveToPlayer();
+                hasReachePlayer = false;
+            }
         }
-    } //555555555
+        else
+        {
+            StopMoving();
+        }
+        
+    }
+    void MoveToPlayer()
+    {
+        if (agent.isActiveAndEnabled)
+        {
+            agent.SetDestination(player.transform.position);
+            hasReachePlayer = false;
+        }
+    }
+    void StopMoving()
+    {
+        if (agent.isActiveAndEnabled)
+        {
+            agent.ResetPath();
+            hasReachePlayer = true;
+        }
+    }
+    
 }
-
-
-
-

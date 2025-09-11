@@ -311,7 +311,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6312573360258431772, guid: 11eed2dfd1329ab4db9e7f27b8e628b7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -118.87193
+      value: -88.735
       objectReference: {fileID: 0}
     - target: {fileID: 6312573360258431772, guid: 11eed2dfd1329ab4db9e7f27b8e628b7, type: 3}
       propertyPath: m_LocalPosition.y
@@ -397,8 +397,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1146e4b804e7910419cd6c7e7e0df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1581541423}
-  speed: 3
+  player: {fileID: 1643293890}
+  stopDistance: 1
+  detectionRange: 10
 --- !u!136 &393725639
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -773,7 +774,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6312573360258431772, guid: 11eed2dfd1329ab4db9e7f27b8e628b7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -97.10193
+      value: -66.965
       objectReference: {fileID: 0}
     - target: {fileID: 6312573360258431772, guid: 11eed2dfd1329ab4db9e7f27b8e628b7, type: 3}
       propertyPath: m_LocalPosition.y
@@ -859,8 +860,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1146e4b804e7910419cd6c7e7e0df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1581541423}
-  speed: 3
+  player: {fileID: 1643293890}
+  stopDistance: 1
+  detectionRange: 10
 --- !u!136 &482027040
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1043,7 +1045,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6312573360258431772, guid: 11eed2dfd1329ab4db9e7f27b8e628b7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -99.66193
+      value: -69.524994
       objectReference: {fileID: 0}
     - target: {fileID: 6312573360258431772, guid: 11eed2dfd1329ab4db9e7f27b8e628b7, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1129,8 +1131,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1146e4b804e7910419cd6c7e7e0df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1581541423}
-  speed: 3
+  player: {fileID: 1643293890}
+  stopDistance: 1
+  detectionRange: 10
 --- !u!136 &549658957
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1310,7 +1313,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6312573360258431772, guid: 11eed2dfd1329ab4db9e7f27b8e628b7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -113.691925
+      value: -83.55499
       objectReference: {fileID: 0}
     - target: {fileID: 6312573360258431772, guid: 11eed2dfd1329ab4db9e7f27b8e628b7, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1396,8 +1399,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1146e4b804e7910419cd6c7e7e0df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1581541423}
-  speed: 3
+  player: {fileID: 1643293890}
+  stopDistance: 1
+  detectionRange: 10
 --- !u!136 &688382599
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1515,7 +1519,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6312573360258431772, guid: 11eed2dfd1329ab4db9e7f27b8e628b7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -106.19693
+      value: -76.06
       objectReference: {fileID: 0}
     - target: {fileID: 6312573360258431772, guid: 11eed2dfd1329ab4db9e7f27b8e628b7, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1601,8 +1605,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1146e4b804e7910419cd6c7e7e0df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1581541423}
-  speed: 3
+  player: {fileID: 1643293890}
+  stopDistance: 1
+  detectionRange: 10
 --- !u!136 &749523192
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1795,7 +1800,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6312573360258431772, guid: 11eed2dfd1329ab4db9e7f27b8e628b7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -102.52193
+      value: -72.384995
       objectReference: {fileID: 0}
     - target: {fileID: 6312573360258431772, guid: 11eed2dfd1329ab4db9e7f27b8e628b7, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1881,8 +1886,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1146e4b804e7910419cd6c7e7e0df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1581541423}
-  speed: 3
+  player: {fileID: 1643293890}
+  stopDistance: 1
+  detectionRange: 10
 --- !u!136 &777998080
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2348,7 +2354,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6312573360258431772, guid: 11eed2dfd1329ab4db9e7f27b8e628b7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -102.87193
+      value: -72.735
       objectReference: {fileID: 0}
     - target: {fileID: 6312573360258431772, guid: 11eed2dfd1329ab4db9e7f27b8e628b7, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2434,8 +2440,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1146e4b804e7910419cd6c7e7e0df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1581541423}
-  speed: 3
+  player: {fileID: 1643293890}
+  stopDistance: 1
+  detectionRange: 10
 --- !u!136 &975770665
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2553,7 +2560,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6312573360258431772, guid: 11eed2dfd1329ab4db9e7f27b8e628b7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -106.19693
+      value: -76.06
       objectReference: {fileID: 0}
     - target: {fileID: 6312573360258431772, guid: 11eed2dfd1329ab4db9e7f27b8e628b7, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2696,8 +2703,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1146e4b804e7910419cd6c7e7e0df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1581541423}
-  speed: 3
+  player: {fileID: 1643293890}
+  stopDistance: 1
+  detectionRange: 10
 --- !u!4 &1064775144 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6312573360258431772, guid: 11eed2dfd1329ab4db9e7f27b8e628b7, type: 3}
@@ -2977,7 +2985,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6312573360258431772, guid: 11eed2dfd1329ab4db9e7f27b8e628b7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -106.19693
+      value: -76.06
       objectReference: {fileID: 0}
     - target: {fileID: 6312573360258431772, guid: 11eed2dfd1329ab4db9e7f27b8e628b7, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3063,8 +3071,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1146e4b804e7910419cd6c7e7e0df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1581541423}
-  speed: 3
+  player: {fileID: 1643293890}
+  stopDistance: 1
+  detectionRange: 10
 --- !u!136 &1313990569
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3286,7 +3295,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6312573360258431772, guid: 11eed2dfd1329ab4db9e7f27b8e628b7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -108.70193
+      value: -78.564995
       objectReference: {fileID: 0}
     - target: {fileID: 6312573360258431772, guid: 11eed2dfd1329ab4db9e7f27b8e628b7, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3372,8 +3381,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1146e4b804e7910419cd6c7e7e0df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1581541423}
-  speed: 3
+  player: {fileID: 1643293890}
+  stopDistance: 1
+  detectionRange: 10
 --- !u!136 &1427566891
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3605,7 +3615,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6312573360258431772, guid: 11eed2dfd1329ab4db9e7f27b8e628b7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -106.19693
+      value: -76.06
       objectReference: {fileID: 0}
     - target: {fileID: 6312573360258431772, guid: 11eed2dfd1329ab4db9e7f27b8e628b7, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3691,8 +3701,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1146e4b804e7910419cd6c7e7e0df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1581541423}
-  speed: 3
+  player: {fileID: 1643293890}
+  stopDistance: 1
+  detectionRange: 10
 --- !u!136 &1570152190
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3901,11 +3912,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1643293912}
   m_SourcePrefab: {fileID: 100100000, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
---- !u!4 &1581541423 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3893294197879345259, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
-  m_PrefabInstance: {fileID: 1581541422}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1633936606
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4036,7 +4042,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6312573360258431772, guid: 11eed2dfd1329ab4db9e7f27b8e628b7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -108.60193
+      value: -78.465
       objectReference: {fileID: 0}
     - target: {fileID: 6312573360258431772, guid: 11eed2dfd1329ab4db9e7f27b8e628b7, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4122,8 +4128,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1146e4b804e7910419cd6c7e7e0df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1581541423}
-  speed: 3
+  player: {fileID: 1643293890}
+  stopDistance: 1
+  detectionRange: 10
 --- !u!136 &1683679345
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4241,7 +4248,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6312573360258431772, guid: 11eed2dfd1329ab4db9e7f27b8e628b7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -106.19693
+      value: -76.06
       objectReference: {fileID: 0}
     - target: {fileID: 6312573360258431772, guid: 11eed2dfd1329ab4db9e7f27b8e628b7, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4327,8 +4334,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1146e4b804e7910419cd6c7e7e0df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1581541423}
-  speed: 3
+  player: {fileID: 1643293890}
+  stopDistance: 1
+  detectionRange: 10
 --- !u!136 &1703770155
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4650,7 +4658,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6312573360258431772, guid: 11eed2dfd1329ab4db9e7f27b8e628b7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -111.691925
+      value: -81.55499
       objectReference: {fileID: 0}
     - target: {fileID: 6312573360258431772, guid: 11eed2dfd1329ab4db9e7f27b8e628b7, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4736,8 +4744,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1146e4b804e7910419cd6c7e7e0df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1581541423}
-  speed: 3
+  player: {fileID: 1643293890}
+  stopDistance: 1
+  detectionRange: 10
 --- !u!136 &2105244162
 CapsuleCollider:
   m_ObjectHideFlags: 0
