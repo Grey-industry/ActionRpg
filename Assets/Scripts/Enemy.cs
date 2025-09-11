@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    //Kohi
 
     public Transform player;   // ������
     public float speed = 3f;   // ���������ѵ��
