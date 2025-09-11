@@ -1,4 +1,4 @@
-using TMPro;
+﻿using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -37,4 +37,5 @@ public class Gameplay : MonoBehaviour
     {
         if (player.hp > 0) player.hp -= 10;
     }
+    //Hello World☆*: .｡. o(≧▽≦)o .｡.:*☆
 }
