@@ -38,4 +38,9 @@ public class Gameplay : MonoBehaviour
         if (player.hp > 0) player.hp -= 10;
     }
     //Hello World☆*: .｡. o(≧▽≦)o .｡.:*☆
+
+    public void Heal()
+    {
+        if (player.hp > 0) player.hp += 10;
+    }
 }

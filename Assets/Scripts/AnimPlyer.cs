@@ -1,15 +1,12 @@
 using UnityEngine;
 
-public class SlimeTrigger : MonoBehaviour
+public class AnimPlyer : MonoBehaviour
 {
-    private Gameplay sm;
-
     Animator animator;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        sm = Object.FindFirstObjectByType<Gameplay>();
 
         animator = GetComponent<Animator>();
     }
@@ -22,22 +19,18 @@ public class SlimeTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Slime") && Input.GetKeyDown(KeyCode.Mouse0)) 
         {
-            sm.TakeDamage();
             Debug.Log("Hello");
-            animator.SetBool("Attack", true);
-            animator.SetBool("Jump", false);
+            animator.SetBool("Kick", true);
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Slime"))
         {
-            animator.SetBool("Attack", false);
-            animator.SetBool("Jump", true);
-
+            animator.SetBool("Kick", false);
         }
     }
 }
