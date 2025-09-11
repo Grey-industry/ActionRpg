@@ -31,7 +31,7 @@ public class Enemy : MonoBehaviour
 <<<<<<< Updated upstream
     }
 =======
-    } //555555555 //Seggggggggg
+    } //555555555 //Seg
 >>>>>>> Stashed changes
 }
 
