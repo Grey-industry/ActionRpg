@@ -29,9 +29,13 @@ public class Enemy : MonoBehaviour
             transform.forward = direction;
         }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     }
 =======
     } //555555555 //Seg //SugoiDakai
+>>>>>>> Stashed changes
+=======
+    } //555555555 //SugoiDakai
 >>>>>>> Stashed changes
 }
 
