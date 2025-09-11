@@ -28,7 +28,7 @@ public class Enemy : MonoBehaviour
             Vector3 direction = (player.position - transform.position).normalized;
             transform.forward = direction;
         }
-    }
+    } //555555555
 }
 
 
