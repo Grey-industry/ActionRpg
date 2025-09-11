@@ -1,17 +1,13 @@
 using UnityEngine;
 
-public class SlimeTrigger : MonoBehaviour
+public class HealBox : MonoBehaviour
 {
     private Gameplay sm;
-
-    Animator animator;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         sm = Object.FindFirstObjectByType<Gameplay>();
-
-        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -24,20 +20,9 @@ public class SlimeTrigger : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            sm.TakeDamage();
+            sm.Heal();
             Debug.Log("Hello");
-            animator.SetBool("Attack", true);
-            animator.SetBool("Jump", false);
-        }
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            animator.SetBool("Attack", false);
-            animator.SetBool("Jump", true);
-
+            Destroy(gameObject);
         }
     }
 }
