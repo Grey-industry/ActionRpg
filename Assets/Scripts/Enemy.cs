@@ -3,8 +3,8 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
 
-    public Transform player;   // ¼ÙéàÅè¹
-    public float speed = 3f;   // ¤ÇÒÁàÃçÇÈÑµÃÙ
+    public Transform player;   // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    public float speed = 3f;   // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñµï¿½ï¿½
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -17,18 +17,22 @@ public class Enemy : MonoBehaviour
     {
         if (player != null)
         {
-            // à´Ô¹à¢éÒËÒ¼ÙéàÅè¹
+            // ï¿½Ô¹ï¿½ï¿½ï¿½ï¿½Ò¼ï¿½ï¿½ï¿½ï¿½ï¿½
             transform.position = Vector3.MoveTowards(
                 transform.position,
                 player.position,
                 speed * Time.deltaTime
             );
 
-            // ËÑ¹Ë¹éÒä»ËÒ¼ÙéàÅè¹
+            // ï¿½Ñ¹Ë¹ï¿½ï¿½ï¿½ï¿½Ò¼ï¿½ï¿½ï¿½ï¿½ï¿½
             Vector3 direction = (player.position - transform.position).normalized;
             transform.forward = direction;
         }
+<<<<<<< Updated upstream
     }
+=======
+    } //555555555 //Seggggggggg
+>>>>>>> Stashed changes
 }
 
 
