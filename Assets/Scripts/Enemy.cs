@@ -42,6 +42,7 @@ public class SlimeChasePlayer : MonoBehaviour
             StopMoving();
         }
         
+
     }
     void MoveToPlayer()
     {
