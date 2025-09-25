@@ -3,6 +3,7 @@ using UnityEngine;
 public class HealBox : MonoBehaviour
 {
     private Gameplay sm;
+    public AudioSource Heal;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -23,6 +24,7 @@ public class HealBox : MonoBehaviour
             sm.Heal();
             Debug.Log("Hello");
             Destroy(gameObject);
+            Heal.Play();
         }
     }
 }
