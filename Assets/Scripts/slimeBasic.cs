@@ -72,4 +72,4 @@ public class slimeBasic : MonoBehaviour
         }
     }
 }
-//Project Slime
+//Project Slime1
