@@ -41,6 +41,6 @@ public class Gameplay : MonoBehaviour
 
     public void Heal()
     {
-        if (player.hp > 0) player.hp += 10;
+        if (player.hp >= 0) player.hp += 10;
     }
 }
